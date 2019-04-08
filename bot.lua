@@ -1,6 +1,7 @@
 sis = require('posix')
 HTTP = require('socket.http')
 HTTPS = require('ssl.https')
+curl = require 'cURL'
 URL = require('socket.url')
 JSON = require('dkjson')
 redis = require('redis')
